@@ -1,0 +1,7 @@
+/home/happypotter/Programming/whitepaper/codecrafters-redis-java/src/main/java/com/redis/Main.java
+/home/happypotter/Programming/whitepaper/codecrafters-redis-java/src/main/java/com/redis/configAndUtils/Config.java
+/home/happypotter/Programming/whitepaper/codecrafters-redis-java/src/main/java/com/redis/configAndUtils/RdbUtils.java
+/home/happypotter/Programming/whitepaper/codecrafters-redis-java/src/main/java/com/redis/configAndUtils/Roles.java
+/home/happypotter/Programming/whitepaper/codecrafters-redis-java/src/main/java/com/redis/configAndUtils/Utils.java
+/home/happypotter/Programming/whitepaper/codecrafters-redis-java/src/main/java/com/redis/serverProfile/MasterProfile.java
+/home/happypotter/Programming/whitepaper/codecrafters-redis-java/src/main/java/com/redis/serverProfile/SlaveProfile.java
