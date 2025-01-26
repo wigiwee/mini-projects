@@ -1,41 +1,43 @@
-### 🌟 Welcome to JavaCraftsmanship Repository! 🌟
+# Mini Projects
 
-This repository is a treasure trove of meticulously crafted Java projects, each a testament to the artistry and ingenuity of pure Java programming. Whether you're a seasoned developer seeking inspiration or a curious learner eager to explore the depths of Java, you're in the right place! 🎩💻
+This repository contains a collection of small yet impactful projects showcasing various technologies and concepts.
 
-#### Why JavaCraftsmanship?
+## Projects
 
-🔍 **Exploration**: Dive into a diverse collection of projects, ranging from HTTP servers to data structures and beyond. Each project is a journey waiting to be explored, offering insights and challenges along the way. 🚀
+1. **Project 1: StudentManagementApp**
+   - A simple CLI student management (CRUP) app developed using JDBC with plain java.
 
-🎨 **Craftsmanship**: Embrace the beauty of pure Java craftsmanship. Every line of code is carefully written with passion and expertise, resulting in projects that are not just functional but elegant in design. 🖌️
+2. **Project 2: Cli-reminder**
+   - A simple cli tool to set timed reminders, developed in Go.
 
-🚀 **Innovation**: Experience the thrill of innovation as you discover novel solutions to common problems. JavaCraftsmanship is not just about code—it's about pushing boundaries and thinking outside the box. 💡
+3. **Project 3: DNS server**
+   - A DNS server clone develop in vanilla java.
 
-#### Getting Started
+4. **Project 4: URL Shortener**
+   - A web-based tool to shorten URLs using a custom algorithm, developed in Go.
 
-🔧 **Installation**: Clone this repository to your local machine using `git clone https://github.com/kaustubhKolhe99/vanilla-java-projects.git`
+5. **Project 5: Not-a-Game**
+   - a simple game framework for developing game on cli.
 
-🚀 **Usage**: Explore the projects in the repository, run them, experiment with the code, and unleash your creativity! 🛠️
+6. **Project 6: Programming_Network_Applications**
+   - a simple app which communicate over TCP/UDP connection.
 
-#### Contributing
+7. **Project 7: redis**
+   - a redis clone developed in vanilla java.
+  
+8. **Project 8: Two-Pass-Assembler**
+   - a two pass assembler written in vanilla java
 
-🤝 **Contributions Welcome**: We welcome contributions from developers of all skill levels. Whether you're fixing a bug, adding a feature, or sharing your own Java masterpiece, your contributions are valued and appreciated. 🙌
+## How to Use
+Clone the repository:
+   ```bash
+   git clone https://github.com/wigiwee/mini-projects.git
+   ```
 
-📝 **How to Contribute**: Fork this repository, make your changes, and submit a pull request. Don't forget to adhere to the repository's coding standards and guidelines. 🛠️
+## Contributing
+Feel free to fork this repository and contribute by submitting pull requests.
 
-#### Support
+## License
+This repository is licensed under the [MIT License](LICENSE).
 
-💬 **Get Help**: If you have any questions, feedback, or need assistance, feel free to open an issue or reach out to the repository maintainers. We're here to help! 🆘
-
-🌟 **Spread the Word**: Enjoyed your experience with JavaCraftsmanship? Spread the word by starring the repository and sharing it with your friends and colleagues. 🌐
-
-#### License
-
-📄 **License**: This repository is licensed under the [MIT License](LICENSE), allowing you to use, modify, and distribute the code for both personal and commercial projects. 📜
-
-#### Acknowledgements
-
-🙏 **Acknowledgements**: Special thanks to all contributors and supporters who have helped shape JavaCraftsmanship into what it is today. Your passion and dedication are truly appreciated. 🎉
-
-#### Let the Journey Begin!
-
-Embark on a journey of discovery and innovation with JavaCraftsmanship. Happy coding! 🚀✨
+---
