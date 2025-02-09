@@ -28,6 +28,9 @@ This repository contains a collection of small yet impactful projects showcasing
 8. **Project 8: Two-Pass-Assembler**
    - a two pass assembler written in vanilla java
 
+9. **Project 9: Caching-proxy**
+   - a caching proxy server written in Go which caches the http request responses
+
 ## How to Use
 Clone the repository:
    ```bash
