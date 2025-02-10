@@ -10,12 +10,12 @@ import (
 	"strconv"
 )
 
-var cache map[*url.URL][]byte
+var cache map[url.URL][]byte
 var origin string = "https://google.com"
 var port int = 8080
 
 func main() {
-	cache = make(map[*url.URL][]byte)
+	cache = make(map[url.URL][]byte)
 
 	for i := 1; i < len(os.Args); i++ {
 		if os.Args[i] == "--port" {
@@ -44,7 +44,7 @@ func main() {
 
 func handleRequest(w http.ResponseWriter, r *http.Request) {
 	log.Printf("received %s ", r.URL)
-	res, isCached := cache[r.URL]
+	res, isCached := cache[*r.URL]
 	if isCached {
 		w.Header().Add("X-Cache", "HIT")
 		w.Write(res)
@@ -71,7 +71,7 @@ func handleRequest(w http.ResponseWriter, r *http.Request) {
 		w.Write(bodyBytes)
 		log.Printf("MISS %s -> %s", r.URL.Path, origin+r.URL.Path)
 
-		cache[r.URL] = bodyBytes
+		cache[*r.URL] = bodyBytes
 		return
 	}
 }
