@@ -30,7 +30,8 @@ This repository contains a collection of small yet impactful projects showcasing
 
 9. **Project 9: Caching-proxy**
    - a caching proxy server written in Go which caches the http request responses
-
+10. **Project 10: Words Reminder**
+   - a simple program written in Go to keep you updated with english words.
 ## How to Use
 Clone the repository:
    ```bash
