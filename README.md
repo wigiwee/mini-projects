@@ -30,8 +30,12 @@ This repository contains a collection of small yet impactful projects showcasing
 
 9. **Project 9: Caching-proxy**
    - a caching proxy server written in Go which caches the http request responses
+
 10. **Project 10: Words Reminder**
    - a simple program written in Go to keep you updated with english words.
+
+11. **Project 11: Distributed File System in Go**
+   - An application which stores file on remote servers by encrypting and broadcasting them. [Source Code](https://github.com/wigiwee/distributed-file-storage-in-go)
 ## How to Use
 Clone the repository:
    ```bash
