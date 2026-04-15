@@ -36,6 +36,10 @@ This repository contains a collection of small yet impactful projects showcasing
 
 11. **Project 11: Distributed File System in Go**
    - An application which stores file on remote servers by encrypting and broadcasting them. [Source Code](https://github.com/wigiwee/distributed-file-storage-in-go)
+
+12. **Project 12: Finance App in Spring Boot**
+   - A finance app developed in spring boot
+
 ## How to Use
 Clone the repository:
    ```bash
